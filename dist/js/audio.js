@@ -1,0 +1,1 @@
+!function(i){function s(){this.audio=new Audio,this.status="pause"}s.prototype={load(i){this.audio.src=i,this.audio.load()},play(){this.audio.play(),this.status="play"},pause(){this.audio.pause(),this.status="pause"},end(i){this.audio.onended=i},moveTo(i){this.audio.currentTime=i}},i.music=new s}(window.player||window.player=={});
